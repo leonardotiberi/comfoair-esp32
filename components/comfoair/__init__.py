@@ -186,7 +186,7 @@ CONFIG_SCHEMA = cv.All(
 async def to_code(config):
     cg.add_library("SPI", "2.0.0")
     cg.add_library("can_common", None, "https://github.com/collin80/can_common.git#8585f9dc807ebbeedeb509d74159f40f538d2d65")
-    cg.add_library("esp32_can", None, "https://github.com/collin80/esp32_can.git#713639c6ec62343e1d962e11152ae13404682d1d")
+    cg.add_library("esp32_can", None, "https://github.com/collin80/esp32_can.git#0fb9878a77935d2995e094d196971009e0da3c48")
 
 
     var = cg.new_Pvariable(config[CONF_ID])
